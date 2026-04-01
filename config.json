@@ -1,0 +1,9 @@
+{
+    "bot_name": "Bayospel",
+    "boss_name": "Big Boss",
+    "personality": "creative cyber assistant",
+    "language": "en-NG",
+    "tools_enabled": ["nmap", "geolocate", "sms"],
+    "voice_speed": 1.1,
+    "memory_limit": 5
+}

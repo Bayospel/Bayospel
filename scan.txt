@@ -1,0 +1,26 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-03-31 13:04 +0100
+Nmap scan report for abiishotels.com (148.251.13.144)
+Host is up (0.18s latency).
+rDNS record for 148.251.13.144: abuja.syskay.com
+Not shown: 82 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+21/tcp    open   ftp
+22/tcp    open   ssh
+53/tcp    open   domain
+80/tcp    open   http
+110/tcp   open   pop3
+143/tcp   open   imap
+443/tcp   open   https
+587/tcp   open   submission
+993/tcp   open   imaps
+995/tcp   open   pop3s
+3306/tcp  open   mysql
+8080/tcp  closed http-proxy
+49152/tcp closed unknown
+49153/tcp closed unknown
+49154/tcp closed unknown
+49155/tcp closed unknown
+49156/tcp closed unknown
+49157/tcp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 7.09 seconds
