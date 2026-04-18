@@ -1,33 +1,55 @@
-# sqlmap ![](https://i.imgur.com/fe85aVR.png)
+​🎓 Secure School Management Portal
 
-[![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.7|3.x](https://img.shields.io/badge/python-2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![x](https://img.shields.io/badge/x-@sqlmap-blue.svg)](https://x.com/sqlmap)
 
-sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester, and a broad range of switches including database fingerprinting, over data fetching from the database, accessing the underlying file system, and executing commands on the operating system via out-of-band connections.
+​Lead Developer: Ridwan Olamilekan Ijaola
 
-Screenshots
-----
 
-![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
+Tech Stack: React, Supabase, PostgreSQL, Tailwind CSS
 
-You can visit the [collection of screenshots](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) demonstrating some of the features on the wiki.
 
-Installation
-----
+​📌 Project Overview
 
-You can download the latest tarball by clicking [here](https://github.com/sqlmapproject/sqlmap/tarball/master) or latest zipball by clicking [here](https://github.com/sqlmapproject/sqlmap/zipball/master).
 
-Preferably, you can download sqlmap by cloning the [Git](https://github.com/sqlmapproject/sqlmap) repository:
+​A comprehensive digital solution designed for schools to manage student records, track fee payments, and automate result processing. This project was built with a Security-First mindset to protect sensitive student data from unauthorized access.
 
-    git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 
-sqlmap works out of the box with [Python](https://www.python.org/download/) version **2.7** and **3.x** on any platform.
+​🛡️ Key Security Features (The "Hardening")
 
-Usage
-----
 
-To get a list of basic options and switches use:
 
-    python sqlmap.py -h
+
+​Row Level Security (RLS): Implemented strict database policies so users can only access data they are authorized to see.
+
+
+​Secure Authentication: Integrated Google OAuth and Email/Password login with protected route guards.
+
+
+​API Protection: Secure handling of Supabase service keys to prevent data scraping or unauthorized database queries.
+
+
+​Audit Logs: Built-in tracking for administrative changes to ensure data integrity.
+
+
+
+
+​🚀 Core Modules
+
+
+
+
+​Student Information System (SIS): Digital registration and profile management.
+
+
+​Finance & Fee Tracker: Automated tracking of tuition payments and debt reporting.
+
+
+​Result Management: Secure portal for teachers to upload grades and for parents to view report cards.
+
+
+​Staff Dashboard: Role-based access control for teachers and administrators
+
+
+
 
 To get a list of all options and switches use:
 
